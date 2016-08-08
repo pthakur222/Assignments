@@ -1,0 +1,135 @@
+body{
+    background: url(../img/p.jpg);
+    margin: 0;
+}
+.header{
+    width: 100%;
+    position: fixed;
+    background: url(../img/cake.jpg) no-repeat;
+    }
+
+h1{
+    color: blue;
+    font-family: 'Lobster', cursive;
+    margin-left:80px;
+    text-align: justify;
+    text-shadow: 2px 2px 0 red;
+    font-size:50/
+    padding-top:20px;
+    
+}
+nav{
+    margin-left: 10px;
+    text-align:center;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    overflow: hidden;
+}
+a:after{
+    clear: both;
+}
+ li{
+    display: inline;
+    margin:25px;
+    color: #E0F445;
+    text-align: center; 
+}
+a{
+    color: #CC030D;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin-left: 10px;
+}
+a:hover{
+    color: black;
+    text-decoration-line: underline;
+}
+.grid_7, #ban{
+    color:white;
+    font-family: cursive;
+    padding-top: 25px;
+    margin-left: 10px;
+    
+}
+.main{
+    clear: both;
+    margin: 0;
+}
+.banner{
+    margin-top: 200px;
+}
+.grid_4 a{
+    color: black;
+}
+h3{
+    font-family: sans-serif;
+    color: #C21A39
+}
+p{
+    font-family: cursive;
+    color: #04859F;
+}
+.frame{
+    display: inline-block;
+}
+
+.grid_3 p{
+    color: brown;
+    font-family: cursive;
+    font-size: 25px;
+}
+.footer{
+    clear: both;
+    overflow: hidden;
+    background: #667198;
+}
+.footer h3{
+    color: #903774;
+    font-family: cursive;
+    font-size: 18px;
+    text-decoration:underline;
+}
+.footer p{
+    color: white;
+    font-family: arial;
+    font-size: 10px;
+}
+.grid_6{
+    color: yellow;
+    margin: 0;
+    padding: 0;
+}
+.grid_6 a{
+    color: yellow;
+}
+a:hover{
+    color: black;
+    text-decoration-line: underline;
+}
+#para{
+
+    border: 10px solid #F4457C;
+    font-family:arial;
+    text-align: center;
+    font-size: 20px;
+}
+
+.pics{
+    margin-top: 220px;
+}
+.pics .pics1 .pics2 p{
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+    color: #04859F;
+    
+}
+.styler h3{
+    font-family: cursive;
+    font-weight: bold;
+}
+.styler p{
+    font-family: sans-serif;
+    font-style: italic;
+    color: #793C74;
+}
