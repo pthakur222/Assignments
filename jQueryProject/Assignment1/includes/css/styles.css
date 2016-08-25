@@ -1,0 +1,101 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+ body{
+  background-color: pink;
+  text-align: center;
+}
+
+#tableid{
+  border:5px;
+
+}
+.heading{
+  padding:25px;
+  font-family: cursive;
+  font-size: 20px;
+  text-align: center;
+}   
+
+#result{
+  margin-top:150px;
+   margin-left: 10px;
+}
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+td{
+  font-family: arial;
+  color: #007EA7;
+}
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+ .navbar{
+  border-style: dashed;
+  border: 6px solid black;
+ }
+
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (min-width: 320px) {
+	#tableid{
+    width: 100%;
+    align-self: auto;
+    font-size: 15px;
+  }
+}
+@media (min-width: 480px) {
+  #tableid{
+    width: 100%;
+    align-self: auto;
+    font-size: 20px;
+  }
+}
+
+/* Landscape phone to portrait tablet */
+@media (min-width: 768px) {
+	#tableid{
+    width: 100%;
+    align-self: auto;
+    font-size: 30px;
+  }
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+  #tableid{
+    width: 100%;
+    align-self: auto;
+    font-size: 40px;
+  }
+	
+}
